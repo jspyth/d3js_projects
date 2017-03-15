@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <style>
+            .link {
+                opacity: 0.5;
+                stroke: #e2e0e1;
+            }
+
+            .line_text{
+                pointer-events: auto;
+                font: 10px sans-serif;
+                color:white;
+            }
+
+            .node text {
+                pointer-events: auto;
+                font: 10px sans-serif;
+                color:white;
+                opacity:0;
+            }
+
+            #Table{
+                color:white;
+            }
+            p,b{
+                color:white;
+            }
+        </style>
+        <script src="d3.v3.min.js"></script>
+    </head>
+    <body bgcolor="black">
+    <div id="tooltip" class="hidden" style="background-color: grey">
+    <script>
+
+    var width = 1450,height = 800;
+    var radius = 15;
+    var tooltip = d3.select("#tooltip")
+            .attr("class", "tooltip")
+            .style("opacity", 0);
+
+    var svg = d3.select("body").append("svg")//添加画布svg对象
+        .attr("width", width)
+        .attr("height", height)
+            .append("g");
+
+
+
+    var force = d3.layout.force()//定义一个力导引布局
+        .gravity(0.15)//结点之间引力
+        .distance(70)//结点之间距离
+        .charge(-100)//斥力，绝对值越大结点之间的排斥力越大
+        .size([width, height]);
+
+
+
+    var label_text_1 = svg.append("text")
+            .attr("class","labeltext")
+            .attr("x",10)
+            .attr("y",16)
+            .text("");
+
+    var label_text_2 = svg.append("text")
+            .attr("class","labeltext")
+            .attr("x",10)
+            .attr("y",40)
+            .text("");
+
+    /*数据文件导入接口*/
+    d3.json("graph2.json", function(error, json) {
+        if (error){throw error;}
+
+        force
+                .nodes(json.nodes)
+                .links(json.links)
+                .on("tick", tick)
+                .start();
+
+        link = svg.selectAll(".link")
+                .data(json.links)
+                .enter().append("line")
+                .attr("class", "link")//attr方法是设置各种属性或样式
+                .attr("stroke","#e2dab8")
+                .attr("stroke-width","1.5px")
+                //.attr("marker-end", "url(#resolved)" )
+                .on("mouseover",function(d){//绑定一个鼠标移上事件
+
+                    var html = '<p style="color:#ffffff"><strong>'+"边数据："+'</strong></p>'+'<p style="color: #ffffff"><span id="value">'+ d.edge_data+'</span></p>';
+
+                    /*******信息悬浮框*****/
+                    tooltip.transition().duration(250)
+                            .style("opacity", ".9");
+
+                    tooltip.html(html)
+                            .style("left", (d3.event.pageX) + "px")
+                            .style("top", (d3.event.pageY) + "px");
+
+                    d3.select("#tooltip").classed("hidden",false);
+                });
+
+        var marker=
+                svg.append("marker")
+                    //.attr("id", function(d) { return d; })
+                        .attr("id", "resolved")
+                    //.attr("markerUnits","strokeWidth")//设置为strokeWidth箭头会随着线的粗细发生变化
+                        .attr("markerUnits","userSpaceOnUse")
+                        .attr("viewBox", "0 -5 10 10")//坐标系的区域
+                        .attr("refX",20)//箭头坐标
+                        .attr("refY", -1)
+                        .attr("markerWidth", 12)//标识的大小
+                        .attr("markerHeight", 12)
+                        .attr("orient", "auto")//绘制方向，可设定为：auto（自动确认方向）和 角度值
+                        .attr("stroke-width",2)//箭头宽度
+                        .append("path")
+                        .attr("d", "M0,-5L10,0L0,5")//箭头的路径
+                        .attr('fill','yellow');//箭头颜色
+
+        node=svg.selectAll(".node")
+                .data(json.nodes)
+                .enter().append("g")
+                .attr("class", "node")
+                .call(force.drag);
+
+        node.append("circle")//添加节点圆
+                .attr("r",8)//圆的半径
+                .attr("stroke","#99ccff")
+                .attr("stroke-width",function(d){
+                    return 2;
+                })
+                .style("fill","#3366ff")//style方法是设置各种样式的
+                .on("mouseover",function(d){
+
+                    var html = '<p style="color:#ffffff"><strong>'+'</strong></p>'+'<p style="color: #ffffff"><span id="value">'+ d.name+":"+ d.node_data+'</span></p>';
+
+                    /*******信息悬浮框*****/
+                    tooltip.transition().duration(250)
+                            .style("opacity", ".9");
+
+                    tooltip.html(html)
+                            .style("left", (d3.event.pageX) + "px")
+                            .style("top", (d3.event.pageY) + "px");
+
+                    d3.select("#tooltip").classed("hidden",false);
+                })
+                ;
+                    /*******信息悬浮框*****/
+                    d3.select("#tooltip").classed("hidden",true);
+
+        var drag = force.drag()
+                .on("dragstart", function (d, i) {
+                    d.fixed = true;    //拖拽开始后设定被拖拽对象为固定
+                    label_text_2.text("");
+                })
+                .on("dragend", function (d, i) {
+                    label_text_2.text("");
+                })
+                .on("drag", function (d, i) {
+                    label_text_2.text("");
+                });
+
+        function tick(){
+            link.attr("x1", function (d) {
+                return d.source.x;
+            })
+                    .attr("y1", function (d) {
+                        return d.source.y;
+                    })
+                    .attr("x2", function (d) {
+                        return d.target.x;
+                    })
+                    .attr("y2", function (d) {
+                        return d.target.y;
+                    });
+
+            node.attr("transform", function (d) {
+                return "translate(" + d.x + "," + d.y + ")";
+            });
+            }
+    });
+    </script>
+</body>
+</html>
