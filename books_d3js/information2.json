@@ -1,0 +1,1076 @@
+{
+    "nodes": [
+        {
+            "Id":0,
+            "name": "book1",
+            "degree":1,
+            "result_bc":0,
+            "group": 1,
+            "result_cc":8.3,
+            "result_slc":11,
+            "picture":"book"
+        },
+        {
+            "Id":1,
+            "name": "people1",
+            "degree":3,
+            "result_bc":282,
+            "group": 1,
+            "result_cc":7.31429,
+            "result_slc":16,
+            "picture":"man"
+        },
+        {
+            "Id":2,
+            "name": "book2",
+            "degree":2,
+            "result_bc":142,
+            "group": 1,
+            "result_cc":11.5857,
+            "result_slc":7,
+            "picture":"book"
+        },
+        {
+            "Id":3,
+            "name": "people2",
+            "degree":2,
+            "result_bc":280,
+            "group": 1,
+            "result_cc":10.6286,
+            "result_slc":13,
+            "picture":"man"
+        },
+        {
+            "Id":4,
+            "name": "people3",
+            "degree":1,
+            "result_bc":0,
+            "group": 1,
+            "result_cc":12.5714,
+            "result_slc":5,
+            "picture":"man"
+        },
+        {
+            "Id":5,
+            "name": "book3",
+            "degree":3,
+            "result_bc":1150,
+            "group": 1,
+            "result_cc":7.07143,
+            "result_slc":17,
+            "picture":"book"
+        },
+        {
+            "Id":6,
+            "name": "people4",
+            "degree":3,
+            "result_bc":3112,
+            "group": 1,
+            "result_cc":6.34286,
+            "result_slc":21,
+            "picture":"man"
+        },
+        {
+            "Id":7,
+            "name": "people5",
+            "degree":1,
+            "result_bc":0,
+            "group": 1,
+            "result_cc":8.05714,
+            "result_slc":11,
+            "picture":"man"
+        },
+        {
+            "Id":8,
+            "name": "people6",
+            "degree":2,
+            "result_bc":910,
+            "group": 1,
+            "result_cc":7.85714,
+            "result_slc":15,
+            "picture":"man"
+        },
+        {
+            "Id":9,
+            "name": "book4",
+            "degree":5,
+            "result_bc":2436,
+            "group": 1,
+            "result_cc":6.95714,
+            "result_slc":28,
+            "picture":"book"
+        },
+        {
+            "Id":10,
+            "name": "people7",
+            "degree":2,
+            "result_bc":2350,
+            "group": 2,
+            "result_cc":6.65714,
+            "result_slc":25,
+            "picture":"man"
+        },
+        {
+            "Id":11,
+            "name": "people8",
+            "degree":3,
+            "result_bc":2262,
+            "group": 2,
+            "result_cc":7.37143,
+            "result_slc":28,
+            "picture":"man"
+        },
+        {
+            "Id":12,
+            "name": "people9",
+            "degree":1,
+            "result_bc":0,
+            "group": 3,
+            "result_cc":7.94286,
+            "result_slc":20,
+            "picture":"man"
+        },
+        {
+            "Id":13,
+            "name": "people10",
+            "degree":1,
+            "result_bc":0,
+            "group": 2,
+            "result_cc":7.94286,
+            "result_slc":20,
+            "picture":"man"
+        },
+        {
+            "Id":14,
+            "name": "people11",
+            "degree":1,
+            "result_bc":0,
+            "group": 2,
+            "result_cc":7.94286,
+            "result_slc":20,
+            "picture":"man"
+        },
+        {
+            "Id":15,
+            "name": "book5",
+            "degree":3,
+            "result_bc":550,
+            "group": 2,
+            "result_cc":9.7,
+            "result_slc":15,
+            "picture":"book"
+        },
+        {
+            "Id":16,
+            "name": "people12",
+            "degree":3,
+            "result_bc":802,
+            "group": 3,
+            "result_cc":8.82857,
+            "result_slc":20,
+            "picture":"man"
+        },
+        {
+            "Id":17,
+            "name": "people13",
+            "degree":1,
+            "result_bc":0,
+            "group": 3,
+            "result_cc":10.6857,
+            "result_slc":13,
+            "picture":"man"
+        },
+        {
+            "Id":18,
+            "name": "book6",
+            "degree":7,
+            "result_bc":1530,
+            "group": 3,
+            "result_cc":8.01429,
+            "result_slc":22,
+            "picture":"book"
+        },
+        {
+            "Id":19,
+            "name": "people14",
+            "degree":1,
+            "result_bc":0,
+            "group": 3,
+            "result_cc":9,
+            "result_slc":18,
+            "picture":"man"
+        },
+        {
+            "Id":20,
+            "name": "people15",
+            "degree":1,
+            "result_bc":0,
+            "group": 3,
+            "result_cc":9,
+            "result_slc":18,
+            "picture":"man"
+        },
+        {
+            "Id":21,
+            "name": "people16",
+            "degree":1,
+            "result_bc":0,
+            "group": 3,
+            "result_cc":9,
+            "result_slc":18,
+            "picture":"man"
+        },
+        {
+            "Id":22,
+            "name": "people17",
+            "degree":1,
+            "result_bc":0,
+            "group": 3,
+            "result_cc":9,
+            "result_slc":18,
+            "picture":"man"
+        },
+        {
+            "Id":23,
+            "name": "people18",
+            "degree":1,
+            "result_bc":0,
+            "group": 3,
+            "result_cc":9,
+            "result_slc":18,
+            "picture":"man"
+        },
+        {
+            "Id":24,
+            "name": "book7",
+            "degree":6,
+            "result_bc":2972,
+            "group": 4,
+            "result_cc":6.38571,
+            "result_slc":20,
+            "picture":"book"
+        },
+        {
+            "Id":25,
+            "name": "people19",
+            "degree":1,
+            "result_bc":0,
+            "group": 4,
+            "result_cc":7.37143,
+            "result_slc":16,
+            "picture":"man"
+        },
+        {
+            "Id":26,
+            "name": "people20",
+            "degree":2,
+            "result_bc":142,
+            "group": 5,
+            "result_cc":7.34286,
+            "result_slc":16,
+            "picture":"man"
+        },
+        {
+            "Id":27,
+            "name": "people21",
+            "degree":2,
+            "result_bc":2584,
+            "group": 4,
+            "result_cc":6.34286,
+            "result_slc":22,
+            "picture":"man"
+        },
+        {
+            "Id":28,
+            "name": "people22",
+            "degree":1,
+            "result_bc":0,
+            "group": 0,
+            "result_cc":7.37143,
+            "result_slc":16,
+            "picture":"man"
+        },
+        {
+            "Id":29,
+            "name": "book8",
+            "degree":1,
+            "result_bc":0,
+            "group": 2,
+            "result_cc":9.81429,
+            "result_slc":14,
+            "picture":"book"
+        },
+        {
+            "Id":30,
+            "name": "book9",
+            "degree":3,
+            "result_bc":121,
+            "group": 3,
+            "result_cc":10.1286,
+            "result_slc":13,
+            "picture":"book"
+        },
+        {
+            "Id":31,
+            "name": "people23",
+            "degree":2,
+            "result_bc":5.33333,
+            "group": 2,
+            "result_cc":10.8857,
+            "result_slc":16,
+            "picture":"man"
+        },
+        {
+            "Id":32,
+            "name": "people24",
+            "degree":4,
+            "result_bc":1875.33,
+            "group": 2,
+            "result_cc":9.2,
+            "result_slc":18,
+            "picture":"man"
+        },
+        {
+            "Id":33,
+            "name": "people25",
+            "degree":2,
+            "result_bc":5.33333,
+            "group": 2,
+            "result_cc":10.8857,
+            "result_slc":16,
+            "picture":"man"
+        },
+        {
+            "Id":34,
+            "name": "book10",
+            "degree":3,
+            "result_bc":808,
+            "group": 2,
+            "result_cc":8.67143,
+            "result_slc":12,
+            "picture":"book"
+        },
+        {
+            "Id":35,
+            "name": "people26",
+            "degree":2,
+            "result_bc":414,
+            "group": 2,
+            "result_cc":9.57143,
+            "result_slc":10,
+            "picture":"man"
+        },
+        {
+            "Id":36,
+            "name": "people27",
+            "degree":2,
+            "result_bc":142,
+            "group": 2,
+            "result_cc":9.62857,
+            "result_slc":10,
+            "picture":"man"
+        },
+        {
+            "Id":37,
+            "name": "book11",
+            "degree":3,
+            "result_bc":9.92857,
+            "group": 2,
+            "result_cc":0,
+            "result_slc":9,
+            "picture":"book"
+        },
+        {
+            "Id":38,
+            "name": "people28",
+            "degree":3,
+            "result_bc":678,
+            "group": 2,
+            "result_cc":9.02857,
+            "result_slc":19,
+            "picture":"man"
+        },
+        {
+            "Id":39,
+            "name": "people29",
+            "degree":1,
+            "result_bc":0,
+            "group": 4,
+            "result_cc":10.9143,
+            "result_slc":7,
+            "picture":"man"
+        },
+        {
+            "Id":40,
+            "name": "people30",
+            "degree":2,
+            "result_bc":142,
+            "group": 6,
+            "result_cc":10.8857,
+            "result_slc":7,
+            "picture":"man"
+        },
+        {
+            "Id":41,
+            "name": "book12",
+            "degree":1,
+            "result_bc":0,
+            "group": 4,
+            "result_cc":8.3,
+            "result_slc":11,
+            "picture":"book"
+        },
+        {
+            "Id":42,
+            "name": "book13",
+            "degree":4,
+            "result_bc":1031,
+            "group": 4,
+            "result_cc":9.92857,
+            "result_slc":18,
+            "picture":"book"
+        },
+        {
+            "Id":43,
+            "name": "people31",
+            "degree":2,
+            "result_bc":792,
+            "group": 5,
+            "result_cc":10.7429,
+            "result_slc":17,
+            "picture":"man"
+        },
+        {
+            "Id":44,
+            "name": "book14",
+            "degree":5,
+            "result_bc":688,
+            "group": 0,
+            "result_cc":11.5857,
+            "result_slc":13,
+            "picture":"book"
+        },
+        {
+            "Id":45,
+            "name": "people32",
+            "degree":1,
+            "result_bc":0,
+            "group": 0,
+            "result_cc":12.5714,
+            "result_slc":10,
+            "picture":"man"
+        },
+        {
+            "Id":46,
+            "name": "people33",
+            "degree":1,
+            "result_bc":0,
+            "group": 7,
+            "result_cc":12.5714,
+            "result_slc":10,
+            "picture":"man"
+        },
+        {
+            "Id":47,
+            "name": "people34",
+            "degree":1,
+            "result_bc":0,
+            "group": 7,
+            "result_cc":12.5714,
+            "result_slc":10,
+            "picture":"man"
+        },
+        {
+            "Id":48,
+            "name": "people35",
+            "degree":2,
+            "result_bc":142,
+            "group": 8,
+            "result_cc":12.5429,
+            "result_slc":10,
+            "picture":"man"
+        },
+        {
+            "Id":49,
+            "name": "book15",
+            "degree":1,
+            "result_bc":0,
+            "group": 5,
+            "result_cc":11.8714,
+            "result_slc":6,
+            "picture":"book"
+        },
+        {
+            "Id":50,
+            "name": "book16",
+            "degree":2,
+            "result_bc":2080,
+            "group": 5,
+            "result_cc":7.58571,
+            "result_slc":15,
+            "picture":"book"
+        },
+        {
+            "Id":51,
+            "name": "people36",
+            "degree":2,
+            "result_bc":2142,
+            "group": 5,
+            "result_cc":7.11429,
+            "result_slc":15,
+            "picture":"man"
+        },
+        {
+            "Id":52,
+            "name": "people37",
+            "degree":2,
+            "result_bc":2014,
+            "group": 5,
+            "result_cc":8.08571,
+            "result_slc":16,
+            "picture":"man"
+        },
+        {
+            "Id":53,
+            "name": "book17",
+            "degree":1,
+            "result_bc":0,
+            "group": 5,
+            "result_cc":8.58571,
+            "result_slc":18,
+            "picture":"book"
+        },
+        {
+            "Id":54,
+            "name": "people38",
+            "degree":3,
+            "result_bc":282,
+            "group": 5,
+            "result_cc":7.6,
+            "result_slc":12,
+            "picture":"man"
+        },
+        {
+            "Id":55,
+            "name": "book18",
+            "degree":3,
+            "result_bc":282,
+            "group": 8,
+            "result_cc":10.5,
+            "result_slc":8,
+            "picture":"book"
+        },
+        {
+            "Id":56,
+            "name": "people39",
+            "degree":1,
+            "result_bc":0,
+            "group": 5,
+            "result_cc":11.4857,
+            "result_slc":6,
+            "picture":"man"
+        },
+        {
+            "Id":57,
+            "name": "people40",
+            "degree":1,
+            "result_bc":0,
+            "group": 8,
+            "result_cc":11.4857,
+            "result_slc":6,
+            "picture":"man"
+        },
+        {
+            "Id":58,
+            "name": "book19",
+            "degree":1,
+            "result_bc":0,
+            "group": 8,
+            "result_cc":13.5286,
+            "result_slc":7,
+            "picture":"book"
+        },
+        {
+            "Id":59,
+            "name": "book20",
+            "degree":1,
+            "result_bc":0,
+            "group": 8,
+            "result_cc":10.6143,
+            "result_slc":6,
+            "picture":"book"
+        },
+        {
+            "Id":60,
+            "name": "book21",
+            "degree":2,
+            "result_bc":2590,
+            "group": 8,
+            "result_cc":6.32857,
+            "result_slc":22,
+            "picture":"book"
+        },
+        {
+            "Id":61,
+            "name": "book22",
+            "degree":3,
+            "result_bc":2482,
+            "group": 8,
+            "result_cc":6.67143,
+            "result_slc":15,
+            "picture":"book"
+        },
+        {
+            "Id":62,
+            "name": "book23",
+            "degree":3,
+            "result_bc":282,
+            "group": 8,
+            "result_cc":10.1286,
+            "result_slc":13,
+            "picture":"book"
+        },
+        {
+            "Id":63,
+            "name": "people41",
+            "degree":1,
+            "result_bc":0,
+            "group": 8,
+            "result_cc":11.1143,
+            "result_slc":11,
+            "picture":"man"
+        },
+        {
+            "Id":64,
+            "name": "people42",
+            "degree":1,
+            "result_bc":0,
+            "group": 8,
+            "result_cc":11.1143,
+            "result_slc":11,
+            "picture":"man"
+        },
+        {
+            "Id":65,
+            "name": "book24",
+            "degree":3,
+            "result_bc":1978,
+            "group": 8,
+            "result_cc":8.61429,
+            "result_slc":15,
+            "picture":"book"
+        },
+        {
+            "Id":66,
+            "name": "people43",
+            "degree":1,
+            "result_bc":0,
+            "group": 8,
+            "result_cc":9.6,
+            "result_slc":13,
+            "picture":"man"
+        },
+        {
+            "Id":67,
+            "name": "book25",
+            "degree":2,
+            "result_bc":792,
+            "group": 9,
+            "result_cc":8.18571,
+            "result_slc":22,
+            "picture":"book"
+        },
+        {
+            "Id":68,
+            "name": "book26",
+            "degree":1,
+            "result_bc":0,
+            "group": 4,
+            "result_cc":8.32857,
+            "result_slc":11,
+            "picture":"book"
+        },
+        {
+            "Id":69,
+            "name": "book27",
+            "degree":1,
+            "result_bc":0,
+            "group": 4,
+            "result_cc":10.0143,
+            "result_slc":9,
+            "picture":"book"
+        },
+        {
+            "Id":70,
+            "name": "book28",
+            "degree":1,
+            "result_bc":0,
+            "group": 4,
+            "result_cc":8.58571,
+            "result_slc":8,
+            "picture":"book"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": 0
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 4,
+            "value": 2
+        },
+        {
+            "source": 5,
+            "target": 6,
+            "value": 3
+        },
+        {
+            "source": 5,
+            "target": 7,
+            "value": 4
+        },
+        {
+            "source": 5,
+            "target": 8,
+            "value": 5
+        },
+        {
+            "source": 9,
+            "target": 10,
+            "value": 6
+        },
+        {
+            "source": 9,
+            "target": 11,
+            "value": 7
+        },
+        {
+            "source": 9,
+            "target": 12,
+            "value": 8
+        },
+        {
+            "source": 9,
+            "target": 13,
+            "value": 9
+        },
+        {
+            "source": 9,
+            "target": 14,
+            "value": 10
+        },
+        {
+            "source": 15,
+            "target": 3,
+            "value": 11
+        },
+        {
+            "source": 15,
+            "target": 16,
+            "value": 12
+        },
+        {
+            "source": 15,
+            "target": 17,
+            "value": 13
+        },
+        {
+            "source": 18,
+            "target": 11,
+            "value": 14
+        },
+        {
+            "source": 18,
+            "target": 16,
+            "value": 15
+        },
+        {
+            "source": 18,
+            "target": 19,
+            "value": 16
+        },
+        {
+            "source": 18,
+            "target": 20,
+            "value": 17
+        },
+        {
+            "source": 18,
+            "target": 21,
+            "value": 18
+        },
+        {
+            "source": 18,
+            "target": 22,
+            "value": 19
+        },
+        {
+            "source": 18,
+            "target": 23,
+            "value": 20
+        },
+        {
+            "source": 24,
+            "target": 1,
+            "value": 21
+        },
+        {
+            "source": 24,
+            "target": 10,
+            "value": 22
+        },
+        {
+            "source": 24,
+            "target": 25,
+            "value": 23
+        },
+        {
+            "source": 24,
+            "target": 26,
+            "value": 24
+        },
+        {
+            "source": 24,
+            "target": 27,
+            "value": 25
+        },
+        {
+            "source": 24,
+            "target": 28,
+            "value": 26
+        },
+        {
+            "source": 29,
+            "target": 16,
+            "value": 27
+        },
+        {
+            "source": 30,
+            "target": 31,
+            "value": 28
+        },
+        {
+            "source": 30,
+            "target": 32,
+            "value": 29
+        },
+        {
+            "source": 30,
+            "target": 33,
+            "value": 30
+        },
+        {
+            "source": 34,
+            "target": 35,
+            "value": 31
+        },
+        {
+            "source": 34,
+            "target": 36,
+            "value": 32
+        },
+        {
+            "source": 34,
+            "target": 8,
+            "value": 33
+        },
+        {
+            "source": 37,
+            "target": 38,
+            "value": 34
+        },
+        {
+            "source": 37,
+            "target": 39,
+            "value": 35
+        },
+        {
+            "source": 37,
+            "target": 40,
+            "value": 36
+        },
+        {
+            "source": 41,
+            "target": 1,
+            "value": 37
+        },
+        {
+            "source": 42,
+            "target": 43,
+            "value": 38
+        },
+        {
+            "source": 42,
+            "target": 31,
+            "value": 39
+        },
+        {
+            "source": 42,
+            "target": 33,
+            "value": 40
+        },
+        {
+            "source": 42,
+            "target": 32,
+            "value": 41
+        },
+        {
+            "source": 44,
+            "target": 43,
+            "value": 42
+        },
+        {
+            "source": 44,
+            "target": 45,
+            "value": 43
+        },
+        {
+            "source": 44,
+            "target": 46,
+            "value": 44
+        },
+        {
+            "source": 44,
+            "target": 47,
+            "value": 45
+        },
+        {
+            "source": 44,
+            "target": 48,
+            "value": 46
+        },
+        {
+            "source": 49,
+            "target": 40,
+            "value": 47
+        },
+        {
+            "source": 50,
+            "target": 51,
+            "value": 48
+        },
+        {
+            "source": 50,
+            "target": 52,
+            "value": 49
+        },
+        {
+            "source": 53,
+            "target": 54,
+            "value": 50
+        },
+        {
+            "source": 55,
+            "target": 35,
+            "value": 51
+        },
+        {
+            "source": 55,
+            "target": 56,
+            "value": 52
+        },
+        {
+            "source": 55,
+            "target": 57,
+            "value": 53
+        },
+        {
+            "source": 58,
+            "target": 48,
+            "value": 54
+        },
+        {
+            "source": 59,
+            "target": 36,
+            "value": 55
+        },
+        {
+            "source": 60,
+            "target": 6,
+            "value": 56
+        },
+        {
+            "source": 60,
+            "target": 27,
+            "value": 57
+        },
+        {
+            "source": 61,
+            "target": 6,
+            "value": 58
+        },
+        {
+            "source": 61,
+            "target": 51,
+            "value": 59
+        },
+        {
+            "source": 61,
+            "target": 54,
+            "value": 60
+        },
+        {
+            "source": 62,
+            "target": 32,
+            "value": 61
+        },
+        {
+            "source": 62,
+            "target": 63,
+            "value": 62
+        },
+        {
+            "source": 62,
+            "target": 64,
+            "value": 63
+        },
+        {
+            "source": 65,
+            "target": 52,
+            "value": 64
+        },
+        {
+            "source": 65,
+            "target": 32,
+            "value": 65
+        },
+        {
+            "source": 65,
+            "target": 66,
+            "value": 66
+        },
+        {
+            "source": 67,
+            "target": 38,
+            "value": 67
+        },
+        {
+            "source": 67,
+            "target": 11,
+            "value": 68
+        },
+        {
+            "source": 68,
+            "target": 26,
+            "value": 69
+        },
+        {
+            "source": 69,
+            "target": 38,
+            "value": 70
+        },
+        {
+            "source": 70,
+            "target": 54,
+            "value": 71
+        }
+    ]
+}

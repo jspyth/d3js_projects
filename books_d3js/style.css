@@ -1,0 +1,40 @@
+.link {
+    stroke: #e2dab8;
+    opacity: 1.0;
+    stroke-width: 3px;
+}
+
+.node text {
+    pointer-events: auto;
+    font-family: tahoma, Helvetica, Arial, sans-serif;
+    color:white;
+    opacity:0.0;
+}
+
+#Table{
+    color:black;
+}
+
+p,b{
+    color:darkmagenta;
+    font-family: tahoma, Helvetica, Arial, sans-serif;
+}
+
+#n2,#n3,#n4,#n5{
+    width: 60px;
+    margin-left: 15px;
+}
+
+.shu_ru {
+    position: relative;
+    display: inline-block;
+    background: whitesmoke;
+    border: 1px solid #99D3F5;
+    border-radius: 8px;
+    padding: 1px 1px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
